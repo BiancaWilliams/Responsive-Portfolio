@@ -78,7 +78,17 @@
        color:#ebebeb; 
    }
 
-   media only screen and (max-width: 768px) {
+   @media only screen and (max-width: 768px) {
+    .navbar-header {
+      background-color: #000000;
+    }
+  }
+  @media only screen and (max-width: 640px) {
+    .navbar-header {
+      background-color: #000000;
+    }
+  }
+  @media only screen and (max-width: 980px) {
     .navbar-header {
       background-color: #000000;
     }
